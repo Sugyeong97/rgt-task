@@ -1,5 +1,3 @@
-import { FaTrash } from "react-icons/fa";
-
 const page = () => {
   return (
     <main className="p-3">
@@ -33,18 +31,14 @@ const page = () => {
         <div>There was a very</div>
         <div>Randal Shanahan</div>
         <div>Nemo</div>
-        <div className="flex justify-center align-middle hover:cursor-pointer">
-          <FaTrash />
-        </div>
+        <div className="hover:cursor-pointer">삭제</div>
       </div>
 
       <div className="grid grid-cols-4 text-center py-3">
         <div>There was a very</div>
         <div>Randal Shanahan</div>
         <div>Nemo</div>
-        <div className="flex justify-center align-middle hover:cursor-pointer">
-          <FaTrash />
-        </div>
+        <div className="hover:cursor-pointer">삭제</div>
       </div>
     </main>
   );
