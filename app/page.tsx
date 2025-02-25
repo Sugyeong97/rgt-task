@@ -1,8 +1,7 @@
-import Routing from "./layout/Routing";
+import MainPage from "./pages/mainpage/page";
 
 const page = () => {
-  // useEffect(() => {});
-  return <Routing />;
+  return <MainPage />;
 };
 
 export default page;
