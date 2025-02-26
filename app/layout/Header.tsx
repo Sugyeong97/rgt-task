@@ -8,7 +8,7 @@ const Header: NextPage<Props> = ({}) => {
   return (
     <>
       <Link
-        href={`/`}
+        href={`/rgt-task/`}
         className="py-3 text-5xl font-bold flex justify-center align-middle hover:cursor-pointer"
       >
         BOOKSTORE
