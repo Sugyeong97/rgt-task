@@ -15,9 +15,9 @@ const ListBottom: NextPage<BookListProps> = ({}) => {
   return (
     <>
       <div className="grid grid-cols-4 text-center py-3">
-        <Link href={`/pages/book-info`}>{bookTitleData}</Link>
-        <Link href={`/pages/author-info`}>저자11</Link>
-        <Link href={`/pages/publisher-info`}>출판사11</Link>
+        <Link href={`/rgt-task/pages/book-info`}>{bookTitleData}</Link>
+        <Link href={`/rgt-task/pages/author-info`}>저자11</Link>
+        <Link href={`/rgt-task/pages/publisher-info`}>출판사11</Link>
         <DeleteButton />
       </div>
     </>
