@@ -29,7 +29,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/pages/bookinfo"
+    "app/pages/book-info"
   ],
   "exclude": ["node_modules"]
 }

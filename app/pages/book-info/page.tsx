@@ -1,14 +1,9 @@
-import BookList from "@/app/components/oranism/BookList";
 import { NextPage } from "next";
 
 interface Props {}
 
 const Page: NextPage<Props> = ({}) => {
-  return (
-    <div>
-      <BookList />
-    </div>
-  );
+  return <div>book info page</div>;
 };
 
 export default Page;

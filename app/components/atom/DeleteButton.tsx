@@ -1,10 +1,18 @@
+"use client";
 import { NextPage } from "next";
 
 interface Props {}
 
 const DeleteButton: NextPage<Props> = ({}) => {
+  const handleClick = () => {
+    alert(`해당 서적을 삭제하시겠습니까?`);
+  };
+
   return (
-    <div className="hover:cursor-pointer flex items-center justify-center">
+    <div
+      className="hover:cursor-pointer flex items-center justify-center"
+      onClick={handleClick}
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
