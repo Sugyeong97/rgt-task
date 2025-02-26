@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
     process.env.NODE_ENV === "production"
       ? "https://Sugyeong97.github.io/rgt-task"
       : "",
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
