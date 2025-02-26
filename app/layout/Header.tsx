@@ -1,24 +1,18 @@
 "use client";
 import { NextPage } from "next";
-import { useRouter } from "next/navigation";
-import SearchBox from "../components/molecules/SearchBox";
+import Link from "next/link";
 
 interface Props {}
 
 const Header: NextPage<Props> = ({}) => {
-  const router = useRouter();
-
   return (
     <>
-      <div
-        className="py-3 text-7xl flex justify-center align-middle hover:cursor-pointer"
-        onClick={() => {
-          router.push("/");
-        }}
+      <Link
+        href={`/`}
+        className="py-3 text-5xl font-bold flex justify-center align-middle hover:cursor-pointer"
       >
         BOOKSTORE
-      </div>
-      <SearchBox />
+      </Link>
     </>
   );
 };

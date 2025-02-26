@@ -4,9 +4,7 @@ import { NextPage } from "next";
 interface Props {}
 
 const DeleteButton: NextPage<Props> = ({}) => {
-  const handleClick = () => {
-    alert(`해당 서적을 삭제하시겠습니까?`);
-  };
+  const handleClick = () => alert(`해당 서적을 삭제하시겠습니까?`);
 
   return (
     <div

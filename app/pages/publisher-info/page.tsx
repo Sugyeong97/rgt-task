@@ -5,7 +5,7 @@ interface Props {}
 const Page: NextPage<Props> = ({}) => {
   return (
     <div className="w-full h-full flex justify-center items-center text-3xl text-pink-400">
-      autor info page
+      publisher info page
     </div>
   );
 };

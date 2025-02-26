@@ -1,7 +1,11 @@
 import MainPage from "./pages/mainpage/page";
 
 const page = () => {
-  return <MainPage />;
+  return (
+    <div>
+      <MainPage />
+    </div>
+  );
 };
 
 export default page;

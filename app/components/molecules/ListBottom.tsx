@@ -1,17 +1,26 @@
+// 책 목록 보여줌
+"use client";
+
+import { useEffect, useState } from "react";
 import { NextPage } from "next";
 import Link from "next/link";
 import DeleteButton from "../atom/DeleteButton";
+import axios from "axios";
 
-interface Props {}
+interface BookListProps {}
 
-const ListBottom: NextPage<Props> = ({}) => {
+const ListBottom: NextPage<BookListProps> = ({}) => {
+  const [bookTitleData, setBookTitleData] = useState<string>("book-title");
+
   return (
-    <div className="grid grid-cols-4 text-center py-3">
-      <Link href={`/pages/book-info`}>제목제목제목</Link>
-      <Link href={`/pages/author-info`}>저자저자저자</Link>
-      <div>출판사출판사</div>
-      <DeleteButton />
-    </div>
+    <>
+      <div className="grid grid-cols-4 text-center py-3">
+        <Link href={`/pages/book-info`}>{bookTitleData}</Link>
+        <Link href={`/pages/author-info`}>저자11</Link>
+        <Link href={`/pages/publisher-info`}>출판사11</Link>
+        <DeleteButton />
+      </div>
+    </>
   );
 };
 
