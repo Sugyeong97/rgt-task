@@ -6,7 +6,7 @@ import { NextPage } from "next";
 interface Props {}
 
 const ListAdd: NextPage<Props> = ({}) => {
-  const handleClick = () => window.open(`/pages/book-add`);
+  const handleClick = () => window.open(`/rgt-task/pages/book-add`);
 
   return (
     <div
