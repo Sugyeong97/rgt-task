@@ -1,4 +1,8 @@
-const InputBox = () => {
+import { NextPage } from "next";
+
+interface Props {}
+
+const InputBox: NextPage<Props> = ({}) => {
   return (
     <input
       placeholder="입력해 주세요."

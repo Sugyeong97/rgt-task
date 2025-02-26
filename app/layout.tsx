@@ -2,7 +2,9 @@ import "./globals.css";
 import Footer from "./layout/Footer";
 import Header from "./layout/Header";
 
-const layout = ({ children }: { children: React.ReactNode }) => {
+interface Props {}
+
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html className="w-screen h-screen">
       <body>
@@ -16,4 +18,4 @@ const layout = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
-export default layout;
+export default Layout;

@@ -1,4 +1,8 @@
-const DeleteButton = () => {
+import { NextPage } from "next";
+
+interface Props {}
+
+const DeleteButton: NextPage<Props> = ({}) => {
   return (
     <div className="hover:cursor-pointer flex items-center justify-center">
       <svg

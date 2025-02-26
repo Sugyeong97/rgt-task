@@ -1,6 +1,8 @@
-import React from "react";
+import { NextPage } from "next";
 
-const Footer = () => {
+interface Props {}
+
+const Footer: NextPage<Props> = ({}) => {
   return (
     <div className="w-full h-24 bg-slate-600 flex items-center justify-center">
       footer

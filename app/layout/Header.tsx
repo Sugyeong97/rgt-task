@@ -1,9 +1,12 @@
 "use client";
+import { NextPage } from "next";
 import { useRouter } from "next/navigation";
 import SearchBox from "../components/molecules/SearchBox";
 import NavBar from "./NavBar";
 
-const Header = () => {
+interface Props {}
+
+const Header: NextPage<Props> = ({}) => {
   const router = useRouter();
 
   return (
