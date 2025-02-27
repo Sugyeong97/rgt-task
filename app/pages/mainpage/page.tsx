@@ -7,7 +7,7 @@ interface Props {}
 
 const Page: NextPage<Props> = ({}) => {
   return (
-    <div className="w-full">
+    <div className="w-full h-full">
       <SearchBox />
       <BookList />
       <ListAdd />

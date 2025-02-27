@@ -6,7 +6,8 @@ interface Props {}
 
 const ListTop: NextPage<Props> = ({}) => {
   return (
-    <div className="grid grid-cols-4 text-center py-3 border-y border-black">
+    <div className="grid grid-cols-5 text-center py-3 border-y border-black">
+      <div>No.</div>
       <div>제목</div>
       <div>저자</div>
       <div>출판사</div>

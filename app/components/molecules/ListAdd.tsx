@@ -10,7 +10,7 @@ const ListAdd: NextPage<Props> = ({}) => {
 
   return (
     <div
-      className="w-full p-3 flex justify-center items-center gap-2 bg-gray-100 hover:cursor-pointer"
+      className="w-full p-3 m-5 flex justify-center items-center gap-2 bg-gray-100 hover:cursor-pointer"
       onClick={handleClick}
     >
       <svg

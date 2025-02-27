@@ -9,7 +9,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <html className="w-screen h-screen">
       <body>
         <Header />
-        <main className="w-screen max-w-screen-lg mx-auto h-screen">
+        <main className="w-full h-full max-w-screen-lg mx-auto">
           {children}
         </main>
         <Footer />

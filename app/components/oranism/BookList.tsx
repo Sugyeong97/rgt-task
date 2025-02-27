@@ -6,10 +6,10 @@ interface Props {}
 
 const BookList: NextPage<Props> = ({}) => {
   return (
-    <>
+    <div className="w-full h-full">
       <ListTop />
       <ListBottom />
-    </>
+    </div>
   );
 };
 
