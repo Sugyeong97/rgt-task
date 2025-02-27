@@ -1,6 +1,8 @@
 ![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=100&section=header&text=BOOKSTORE%20-%20임수경&fontSize=40)
 
-### 지원자 임수경
+## 지원자 임수경
+
+---
 
 ## 프로젝트 기술 스택
 
