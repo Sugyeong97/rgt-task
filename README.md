@@ -22,3 +22,4 @@
 ---
 
 ### [실행 방법]
+![image]("https://photos.app.goo.gl/WSJg1KzYvuy988AD8")
